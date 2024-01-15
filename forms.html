@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+
+    <nav> <!-- <nav>: utilizada para criar menus de navegação. -->
+        <a href="./index.html">Home ⌂ </a> <!-- Botões e suas funcionalidades. -->
+        <a href="./containers.html">| Ir para a página de Conteiners</a> <!-- Botões e suas funcionalidades. -->
+        <a href="./listas.html">| Ir para a página de Listas</a> <!-- Botões e suas funcionalidades. -->
+        <a href="./tabelas.html">| Ir para a página de Tabelas</a> <!-- Botões e suas funcionalidades. -->
+        <a href="./forms.html">| Ir para a página de Formulários <br> </a> <!-- Botões e suas funcionalidades. -->
+    </nav>
+
+    <h1>Formulários</h1>
+
+<form> <!-- <form>: É o container do formulário. Todos os campos e botões deverão. -->
+    <!-- <input>: Usada para inserir um campo. -->
+    <input type="text" placeholder="Seu nome" /> <!-- Text: para campos de texto. -->
+    <label for="email"><br> <label>Seu e-mail</label> <!-- Email: para campos que receberão um e-mail. -->
+    <input id="email"type="email" />
+    <br>
+    <input type="tel" placeholder="Seu telefone" /> <br> <!-- Tel: para campos que irão receber um número de telefone. -->
+    <input type="number" max="10" min="0" /> <br> <!-- Campo onde pode acrescentar e decrementar números tendo como definir máximo e minimo -->
+    <input type="file" /> <br> <!-- File: para campos que serão utilizados para anexar um arquivo. -->
+    <input type="color" /> <br> <!-- Color: para campos que receberão uma cor. -->
+    <input type="checkbox" id="checkbox-termos"/> <label for="checkbox-termos">Aceito os termos</label> <!-- Checkbox: para criar caixas de marcação. -->
+    <p>
+        Qual sua cor favorita? <!-- Pergunta na tela do usuário -->
+    </p>
+    <!-- Radio: usado para criar campos de opção. -->
+    <input type="radio" name="cor-favorita" id="cor-vermelha"/><label for="cor-vermelha"></label> Vermelho
+
+    <input type="radio" name="cor-favorita" id=cor-verde /> <label for="cor-verde"></label> Verde
+    
+    <input type="radio" name="cor-favorita" id="cor-azul" /> <label for="cor-azul"></label> Azul
+    <br>
+
+    <label>Qual seu filme favorito?</label> <!--  -->
+    <select> <!--<select>: Utilizada para criar uma lista de opções, uma caixa de seleção. -->
+        <option> Filme A </option>
+        <option> Filme B </option> <!-- Opções que apareceram para o usuário -->
+        <option> Filme C </option>
+    </select>
+<br>
+<textarea></textarea> <!-- Cria uma caixa de texto para o usuário. -->>
+
+<button type="submit"> <!-- <button>: Usada para criar botões. -->
+    Enviar
+</button>
+
+<button type="reset"> <!-- <button>: Usada para criar botões. -->
+    Limpar
+</button>
+
+</form>
+</body>
+</html>
